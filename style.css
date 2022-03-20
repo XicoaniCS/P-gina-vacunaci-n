@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: midnightblue;
+}
+
+.menu-bar {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.menu-bar li {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-bar li a {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.active,
+.menu-bar li a:hover {
+    color: navy;
+}
+
+#button {
+    background-color: navy;
+    border: 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#button a {
+    background-color: navy;
+    border: 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    height: 600px;
+    padding: 60px;
+}
+
+.column li {
+    display: inline;
+    padding-left: 15px;
+}
+
+.column ol {
+    list-style: circle;
+}
+
+img {
+    max-height: 100%;
+    width: auto;
+}
+
+.schedule {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.column2 {
+    flex: 25%;
+    width: 1000px;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    color: gainsboro;
+}
+
+.texto {
+    padding: 30px 60px;
+    margin: 10px;
+}
+
+.ayudadios {
+    display: flex;
+}
+
+.columna {
+    flex: 20%;
+    max-width: 700px;
+    height: auto;
+    font-size: 15px;
+    padding: 20px 60px;
+}
+
+.buttonoo {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.row3 {
+    display: flex;
+}
+
+.column3 {
+    flex: 25%;
+    width: 1000px;
+    padding: 20px;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.row4 {
+    display: flex;
+}
+
+.column4 {
+    flex: 50%;
+    height: 700px;
+    padding: 100px 60px;
+    font-size: 20px;
+}
+
+.row5 {
+    display: flex;
+}
+
+.column5 {
+    flex: 50%;
+    height: 700px;
+    padding: 40px;
+}
+
+.column5 table {
+    font-size: 20px;
+}
+
+.buttono {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px 6px;
+}
+
+footer {
+    background-color: lightsteelblue;
+    padding: 30px;
+}
+
+.row6 {
+    display: flex;
+}
+
+.column6 {
+    flex: 25%;
+    height: auto;
+    padding: 20px 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.column6 p {
+    color: dimgrey;
+}
